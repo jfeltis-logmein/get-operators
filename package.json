@@ -1,0 +1,11 @@
+{
+  "name": "get-operators",
+  "version": "0.0.1",
+  "description": "Get BoldChat operators",
+	"scripts": {
+		"start": "node app.js"
+	},
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
