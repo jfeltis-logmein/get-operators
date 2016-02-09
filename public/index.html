@@ -6,9 +6,9 @@
   </head>
   <body>
     <script>
-      var accountId = '',
-          apiSettingsId = '',
-          apiKey = '',
+      var accountId = '451911009327680503',
+          apiSettingsId = '202509975067094783',
+          apiKey = 'Rhte8c5BlhHbakyHFFhsKQ8FiboiyuGaI4By60+KWDo0TyOn945JDBCyKRVUeVEwbcx1CO+W/fUOrFb6tnEwAA==',
           auth = accountId + ':' + apiSettingsId + ':' + (new Date()).getTime(),
           hash = auth + ':' + CryptoJS.SHA512(auth + apiKey).toString(CryptoJS.enc.Hex);
 
